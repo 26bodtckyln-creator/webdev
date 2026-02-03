@@ -2,66 +2,156 @@
 <html>
 
 <head>
-    <title>My Favorite TV shows</title>
+    <title>Colorful Favorite Tv Shows</title>
 </head>
+<style>
+    /* Element Selectors */
+    body {
+        background-color: #18181a;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 
-<body style="background-color: #2e0753;">
+    h1 {
+        color: #812ce2;
+        text-align: center;
+    }
 
-    <h1 style="color:#a186ec">My Top Three Favorite Tv shows</h1>
-    <p style="color: #d197ec;">These are the shows that I could watch again and again.</p>
+    h2 {
+        color: #613DC1;
+        border-bottom: 2px solid #fdfffe;
+        padding-bottom: 5px;
+    }
 
-    <hr>
+    /* Class Selectors */
+    .highlight {
+        background-color: #5a5a5a;
+        padding: 10px;
+        border-radius: 5px;
+    }
 
-    <h2 style="color:#7d31f8">Top 3</h2>
-    <ol style="color: #927cf3; font-size: 18px;">
-        <li>Arcane</li>
-        <li>Teen titans</li>
-        <li>Spongebob Squarepants S1-S3</li>
-    </ol>
+    .list-container {
+        background-color: #919394;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
 
-    <h2 style="color:#7c42e9">Why I Love These Shows</h2>
-    <ul style="color: #d197ec; font-size: 16px;">
-        <li>Fun and memorable characters</li>
-        <li>Memorable quotes</li>
-        <li>Excellent Animation</li>
-        <li>Good stories</li>
-    </ul>
+    /* ID Selector */
+    #color-explanation {
+        background-color: #C4CBCA;
+        padding: 15px;
+        border: 2px dashed #858AE3;
+        color: #0A0F0D;
+    }
 
-    <hr>
+    /* Table Styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
 
-    <h2 style="color:#7c42e9">Show Details</h2>
-    <table style="width: 100%; color: #d197ec;">
-        <tr style="background-color: #C4CBCA;">
-            <th>Show Title</th>
-            <th>Year</th>
-            <th>Creator</th>
-            <th>My Rating</th>
-        </tr>
-        <tr>
-            <td>Spongebob Squarepants</td>
-            <td>1999</td>
-            <td>Steven Hillenburg</td>
-            <td>9/10, Overall the series has not been great in recent years however I am mainly reffering to seasons
-                1-3, as exellent televison, The show contains lots of funny and memorable dialogue.</td>
-        </tr>
-        <tr>
-            <td>Teen Titans</td>
-            <td>2003</td>
-            <td>Glen Murakami</td>
-            <td>9/10, I have not finished the series however so far it is excelllent.</td>
-        </tr>
-        <tr>
-            <td>Arcane</td>
-            <td>2021</td>
-            <td>Christian Linke and Alex Yee</td>
-            <td>9/10, THis show has Stunning visuals, although I believed season 2 to be lackluster, Though I believe
-                that season one is Amazing. </td>
-        </tr>
-    </table>
+    th {
+        background-color: #858AE3;
+        color: white;
+        padding: 12px;
+        text-align: left;
+    }
 
-    <!-- Optional: Include an image -->
-    <img src="../resume/images/movie-reel.jpg" height="100px" width="100px">
+    td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
 
-</body>
+    tr:nth-child(even) {
+        background-color: #F2F2F2;
+    }
+
+    tr:hover {
+        background-color: #888de9;
+    }
+
+    /* Image Styling */
+    img {
+        border: 3px solid #763786;
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+    /* Link Styling */
+    a {
+        color: #55066d;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #4E148C;
+        text-decoration: underline;
+    }
+</style>
+<div class="highlight">
+    <p>This page uses an analogous color scheme. With a dark black background that contrasts with the brighter text..
+    </p>
+</div>
+
+<div id="color-explanation">
+    <h2>Color Scheme Explanation</h2>
+    <p>I chose this color scheme because it incorperates my favorite colors, while also drawing attention with some bold
+        and bright colors, as well as including more saturated tones. This draws the attention of the viewer towards the
+        text itself, rather than having a distracting background.</p>
+</div>
+
+<h1 style="color:#858AE3">My Top 3 Tv Shows </h1>
+
+<hr>
+
+<h2 style="color:#b600e4">Top 3</h2>
+<ol style="color: #613DC1; font-size: 18px;">
+    <li>Spongebob Squarepants</li>
+    <li>Teen Titans</li>
+    <li>Arcane</li>
+
+</ol>
+
+<h2 style="color:#858AE3">Why I Love These shows</h2>
+<ul style="color: #97DFFC; font-size: 16px;">
+    <li>Fun and memorable characters</li>
+    <li>Memorable quotes</li>
+    <li>Good Stories</li>
+    <li>Excellent animation</li>
+    <ul>
+        <hr>
+
+        <h2 style="color:#6b00b3">Game Details</h2>
+        <table style="width: 100%; color: #e400d1;">
+            <tr style="background-color: #ffffff;">
+                <th>Show Title</th>
+                <th>Year</th>
+                <th>Creator</th>
+                <th>My Rating</th>
+            </tr>
+            <tr>
+                <td>Spongebob Squarepants</td>
+                <td>1999</td>
+                <td>Steven Hillenburg</td>
+                <td>9/10, Overall the series has not been great in recent years however I am mainly reffering to seasons
+                    1-3, as exellent televison, The show contains lots of funny and memorable dialogue.</td>
+            </tr>
+            <tr>
+                <td>Teen Titans</td>
+                <td>2003</td>
+                <td>Glen Murakami</td>
+                <td>>9/10, I have not finished the series however so far it is excelllent.</td>
+            </tr>
+            <tr>
+                <td>Arcane</td>
+                <td>2021</td>
+                <td>Christian Linke and Alex Yee</td>
+                <td>9/10, THis show has Stunning visuals, although I believed season 2 to be lackluster, Though I
+                    believe
+                    that season one is Amazing.</td>
+            </tr>
+        </table>
+        </body>
 
 </html>
