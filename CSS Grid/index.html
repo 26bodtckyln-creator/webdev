@@ -1,11 +1,60 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 
-    <head>
-        <title>CSS Grid</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <div class="wrapper"></div>
-        <h1>Kylie Bodtcher</h1>
-    </body>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Kylie Bodtcher</h1>
+        </header>
+        <div id="hero">
+            <img id="heroimage" src="images/Toothless2.webp" alt="heroimg">
+        </div>
+        <div id="about">
+            <h2>About Me</h2>
+            <p>My name is Kylie Bodtcher. I have a twin sister and an older brother, I also have 2 cats. I love animals
+                and my favorite animal is a raven. My
+                favorite colors are purple, black, and blue. </p>
+            <h2>Interests</h2>
+            <p>I enjoy drawing, creating, painting, listening to music, hiking, swimming, playing video games, and
+                watching movies/Tv. </p>
+        </div>
+
+        <h2 style="color:#000000; text-align:center; grid-column: 2 / 5;">Favorite Video Games</h2>
+
+
+        <table style="width: 80%; margin: 0 auto; grid-column: 2 / 5; color: rgb(0, 0, 0);">
+            <tr style="background-color: #ffffff;">
+                <th>Title</th>
+                <th>Year</th>
+                <th>Creator</th>
+            <tr>
+                <td>Legend Of Zelda Breath of The Wild</td>
+                <td>2017</td>
+                <td>Nintendo</td>
+            </tr>
+            <tr>
+                <td>Portal 2</td>
+                <td>2011</td>
+                <td>Valve</td>
+            </tr>
+            <tr>
+                <td>Batman Arkham City</td>
+                <td>2011</td>
+                <td>Rocksteady</td>
+            <tr>
+                <td>God of War Ragnarok</td>
+                <td>2022</td>
+                <td>Santa Monica Studios</td>
+            </tr>
+            <tr>
+                <td>Fallout New Vegas</td>
+                <td>2010</td>
+                <td>Obsidian Entertainment</td>
+            </tr>
+        </table>
+    </div>
+</body>
