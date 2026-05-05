@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(40, 212, 54);
+    background-color: rgb(246, 250, 32);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     color: rgb(255, 255, 255);
@@ -13,6 +13,7 @@ body {
     margin-left: 33%;
     margin-right: 33%;
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 #Wikipedia-btn {
